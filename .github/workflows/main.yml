@@ -6,15 +6,25 @@ on:
       - main  # Set a branch to deploy
 
 jobs:
-  deploy:
+  build:
+    name: Build site
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout repo
+        uses: actions/checkout@v2
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
+          extended: true
 
-      - name: Build
+      - name: Build site
         run: hugo -d docs/ --minify
+
+      - name: Commit results
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git commit docs -m 'build site' || echo "No changes to commit"
+          git push origin || echo "No changes to commit"
