@@ -1,4 +1,4 @@
-baseURL = 'https://github.com/dbs67/dbs67.github.io'
+baseURL = 'https://donbstringham.com'
 languageCode = 'en-us'
 title = 'Don B. Stringham'
 theme = "coder-portfolio" # Set the theme.

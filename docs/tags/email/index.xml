@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>email on Don B. Stringham</title>
-    <link>https://github.com/dbs67/dbs67.github.io/tags/email/</link>
+    <link>https://donbstringham.com/tags/email/</link>
     <description>Recent content in email on Don B. Stringham</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Mar 2015 17:50:49 -0700</lastBuildDate><atom:link href="https://github.com/dbs67/dbs67.github.io/tags/email/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Mar 2015 17:50:49 -0700</lastBuildDate><atom:link href="https://donbstringham.com/tags/email/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>HTML Signatures in Apple Mail</title>
-      <link>https://github.com/dbs67/dbs67.github.io/posts/2015-03-06-html-signatures-in-apple-mail/</link>
+      <link>https://donbstringham.com/posts/2015-03-06-html-signatures-in-apple-mail/</link>
       <pubDate>Fri, 06 Mar 2015 17:50:49 -0700</pubDate>
       
-      <guid>https://github.com/dbs67/dbs67.github.io/posts/2015-03-06-html-signatures-in-apple-mail/</guid>
+      <guid>https://donbstringham.com/posts/2015-03-06-html-signatures-in-apple-mail/</guid>
       <description>Short, concise and good looking HTML email signatures!
 Though there are quite a few of email applications for the Mac OSX none of them combine all the email accounts into one. I mean they don&amp;rsquo;t work with my work email stringhamdb@familysearch.org while working with my personal and schools emails or vice versa. The only one that does is Apple Mail. The email signature feature in Apple Mail is very limited and this post is a way to work around that.</description>
     </item>

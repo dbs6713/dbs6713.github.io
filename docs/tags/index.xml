@@ -2,179 +2,179 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Don B. Stringham</title>
-    <link>https://github.com/dbs67/dbs67.github.io/tags/</link>
+    <link>https://donbstringham.com/tags/</link>
     <description>Recent content in Tags on Don B. Stringham</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 Jun 2016 19:35:16 -0600</lastBuildDate><atom:link href="https://github.com/dbs67/dbs67.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Jun 2016 19:35:16 -0600</lastBuildDate><atom:link href="https://donbstringham.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>dev</title>
-      <link>https://github.com/dbs67/dbs67.github.io/tags/dev/</link>
+      <link>https://donbstringham.com/tags/dev/</link>
       <pubDate>Sun, 05 Jun 2016 19:35:16 -0600</pubDate>
       
-      <guid>https://github.com/dbs67/dbs67.github.io/tags/dev/</guid>
+      <guid>https://donbstringham.com/tags/dev/</guid>
       <description></description>
     </item>
     
     <item>
       <title>code</title>
-      <link>https://github.com/dbs67/dbs67.github.io/tags/code/</link>
+      <link>https://donbstringham.com/tags/code/</link>
       <pubDate>Thu, 21 May 2015 11:10:52 -0700</pubDate>
       
-      <guid>https://github.com/dbs67/dbs67.github.io/tags/code/</guid>
+      <guid>https://donbstringham.com/tags/code/</guid>
       <description></description>
     </item>
     
     <item>
       <title>oci</title>
-      <link>https://github.com/dbs67/dbs67.github.io/tags/oci/</link>
+      <link>https://donbstringham.com/tags/oci/</link>
       <pubDate>Wed, 22 Apr 2015 11:10:52 -0700</pubDate>
       
-      <guid>https://github.com/dbs67/dbs67.github.io/tags/oci/</guid>
+      <guid>https://donbstringham.com/tags/oci/</guid>
       <description></description>
     </item>
     
     <item>
       <title>oracle</title>
-      <link>https://github.com/dbs67/dbs67.github.io/tags/oracle/</link>
+      <link>https://donbstringham.com/tags/oracle/</link>
       <pubDate>Wed, 22 Apr 2015 11:10:52 -0700</pubDate>
       
-      <guid>https://github.com/dbs67/dbs67.github.io/tags/oracle/</guid>
+      <guid>https://donbstringham.com/tags/oracle/</guid>
       <description></description>
     </item>
     
     <item>
       <title>pdo</title>
-      <link>https://github.com/dbs67/dbs67.github.io/tags/pdo/</link>
+      <link>https://donbstringham.com/tags/pdo/</link>
       <pubDate>Wed, 22 Apr 2015 11:10:52 -0700</pubDate>
       
-      <guid>https://github.com/dbs67/dbs67.github.io/tags/pdo/</guid>
+      <guid>https://donbstringham.com/tags/pdo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>php</title>
-      <link>https://github.com/dbs67/dbs67.github.io/tags/php/</link>
+      <link>https://donbstringham.com/tags/php/</link>
       <pubDate>Wed, 22 Apr 2015 11:10:52 -0700</pubDate>
       
-      <guid>https://github.com/dbs67/dbs67.github.io/tags/php/</guid>
+      <guid>https://donbstringham.com/tags/php/</guid>
       <description></description>
     </item>
     
     <item>
       <title>phar</title>
-      <link>https://github.com/dbs67/dbs67.github.io/tags/phar/</link>
+      <link>https://donbstringham.com/tags/phar/</link>
       <pubDate>Tue, 21 Apr 2015 11:10:52 -0700</pubDate>
       
-      <guid>https://github.com/dbs67/dbs67.github.io/tags/phar/</guid>
+      <guid>https://donbstringham.com/tags/phar/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tagging</title>
-      <link>https://github.com/dbs67/dbs67.github.io/tags/tagging/</link>
+      <link>https://donbstringham.com/tags/tagging/</link>
       <pubDate>Fri, 17 Apr 2015 11:10:52 -0700</pubDate>
       
-      <guid>https://github.com/dbs67/dbs67.github.io/tags/tagging/</guid>
+      <guid>https://donbstringham.com/tags/tagging/</guid>
       <description></description>
     </item>
     
     <item>
       <title>composer</title>
-      <link>https://github.com/dbs67/dbs67.github.io/tags/composer/</link>
+      <link>https://donbstringham.com/tags/composer/</link>
       <pubDate>Mon, 30 Mar 2015 09:05:00 -0700</pubDate>
       
-      <guid>https://github.com/dbs67/dbs67.github.io/tags/composer/</guid>
+      <guid>https://donbstringham.com/tags/composer/</guid>
       <description></description>
     </item>
     
     <item>
       <title>email</title>
-      <link>https://github.com/dbs67/dbs67.github.io/tags/email/</link>
+      <link>https://donbstringham.com/tags/email/</link>
       <pubDate>Fri, 06 Mar 2015 17:50:49 -0700</pubDate>
       
-      <guid>https://github.com/dbs67/dbs67.github.io/tags/email/</guid>
+      <guid>https://donbstringham.com/tags/email/</guid>
       <description></description>
     </item>
     
     <item>
       <title>html</title>
-      <link>https://github.com/dbs67/dbs67.github.io/tags/html/</link>
+      <link>https://donbstringham.com/tags/html/</link>
       <pubDate>Fri, 06 Mar 2015 17:50:49 -0700</pubDate>
       
-      <guid>https://github.com/dbs67/dbs67.github.io/tags/html/</guid>
+      <guid>https://donbstringham.com/tags/html/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mac</title>
-      <link>https://github.com/dbs67/dbs67.github.io/tags/mac/</link>
+      <link>https://donbstringham.com/tags/mac/</link>
       <pubDate>Fri, 06 Mar 2015 17:50:49 -0700</pubDate>
       
-      <guid>https://github.com/dbs67/dbs67.github.io/tags/mac/</guid>
+      <guid>https://donbstringham.com/tags/mac/</guid>
       <description></description>
     </item>
     
     <item>
       <title>linux</title>
-      <link>https://github.com/dbs67/dbs67.github.io/tags/linux/</link>
+      <link>https://donbstringham.com/tags/linux/</link>
       <pubDate>Tue, 13 Jan 2015 17:50:49 -0700</pubDate>
       
-      <guid>https://github.com/dbs67/dbs67.github.io/tags/linux/</guid>
+      <guid>https://donbstringham.com/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>patterns</title>
-      <link>https://github.com/dbs67/dbs67.github.io/tags/patterns/</link>
+      <link>https://donbstringham.com/tags/patterns/</link>
       <pubDate>Tue, 23 Dec 2014 22:47:30 -0700</pubDate>
       
-      <guid>https://github.com/dbs67/dbs67.github.io/tags/patterns/</guid>
+      <guid>https://donbstringham.com/tags/patterns/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cdn</title>
-      <link>https://github.com/dbs67/dbs67.github.io/tags/cdn/</link>
+      <link>https://donbstringham.com/tags/cdn/</link>
       <pubDate>Wed, 17 Dec 2014 16:56:24 -0700</pubDate>
       
-      <guid>https://github.com/dbs67/dbs67.github.io/tags/cdn/</guid>
+      <guid>https://donbstringham.com/tags/cdn/</guid>
       <description></description>
     </item>
     
     <item>
       <title>google</title>
-      <link>https://github.com/dbs67/dbs67.github.io/tags/google/</link>
+      <link>https://donbstringham.com/tags/google/</link>
       <pubDate>Wed, 17 Dec 2014 16:56:24 -0700</pubDate>
       
-      <guid>https://github.com/dbs67/dbs67.github.io/tags/google/</guid>
+      <guid>https://donbstringham.com/tags/google/</guid>
       <description></description>
     </item>
     
     <item>
       <title>web</title>
-      <link>https://github.com/dbs67/dbs67.github.io/tags/web/</link>
+      <link>https://donbstringham.com/tags/web/</link>
       <pubDate>Wed, 17 Dec 2014 16:56:24 -0700</pubDate>
       
-      <guid>https://github.com/dbs67/dbs67.github.io/tags/web/</guid>
+      <guid>https://donbstringham.com/tags/web/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ddd</title>
-      <link>https://github.com/dbs67/dbs67.github.io/tags/ddd/</link>
+      <link>https://donbstringham.com/tags/ddd/</link>
       <pubDate>Thu, 11 Dec 2014 12:52:29 -0700</pubDate>
       
-      <guid>https://github.com/dbs67/dbs67.github.io/tags/ddd/</guid>
+      <guid>https://donbstringham.com/tags/ddd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>info</title>
-      <link>https://github.com/dbs67/dbs67.github.io/tags/info/</link>
+      <link>https://donbstringham.com/tags/info/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/dbs67/dbs67.github.io/tags/info/</guid>
+      <guid>https://donbstringham.com/tags/info/</guid>
       <description></description>
     </item>
     
