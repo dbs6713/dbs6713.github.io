@@ -1,32 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>composer on Don B. Stringham</title>
-    <link>https://donbstringham.com/tags/composer/</link>
-    <description>Recent content in composer on Don B. Stringham</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 30 Mar 2015 09:05:00 -0700</lastBuildDate><atom:link href="https://donbstringham.com/tags/composer/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Composer Autoloading</title>
-      <link>https://donbstringham.com/posts/2015-03-31-composer-autoloading/</link>
-      <pubDate>Mon, 30 Mar 2015 09:05:00 -0700</pubDate>
-      
-      <guid>https://donbstringham.com/posts/2015-03-31-composer-autoloading/</guid>
-      <description>Composer Autoloading Not Just for Vendor Files
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>composer on Don B. Stringham</title><link>https://donbstringham.com/tags/composer/</link><description>Recent content in composer on Don B. Stringham</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 30 Mar 2015 09:05:00 -0700</lastBuildDate><atom:link href="https://donbstringham.com/tags/composer/index.xml" rel="self" type="application/rss+xml"/><item><title>Composer Autoloading</title><link>https://donbstringham.com/posts/2015-03-31-composer-autoloading/</link><pubDate>Mon, 30 Mar 2015 09:05:00 -0700</pubDate><guid>https://donbstringham.com/posts/2015-03-31-composer-autoloading/</guid><description>Composer Autoloading Not Just for Vendor Files
 Teacher can and should learn from students! That is one of the things I find very satisfying about being an adjunct professor at Weber State University. The fact that I can learn new and usual things from those I teach. Last night was one of those times.
-In fielding questions about a PHP project a comment came up about multiple autoloaders. In the first project I had the students create their own autoloader.</description>
-    </item>
-    
-    <item>
-      <title>Implementing Satis</title>
-      <link>https://donbstringham.com/posts/2015-03-12-implementing-satis/</link>
-      <pubDate>Thu, 12 Mar 2015 09:05:00 -0700</pubDate>
-      
-      <guid>https://donbstringham.com/posts/2015-03-12-implementing-satis/</guid>
-      <description>Implementing a local Packagist with Satis
-Many large companies, including the one I am currently working for FamilySearch, Intl., operate many servers that do not have connectivity to the internet at large. In other words, they cannot reach Packagist rendering using composer useless. Luckily, the developers at composer have provided a solution to the above problem, private packages. I had been using composer for awhile but was un-aware of Satis or Toran Proxy until I attend Rafael Dohms Composer: The Right Way at php[world] 2014 in Washington, D.</description>
-    </item>
-    
-  </channel>
-</rss>
+In fielding questions about a PHP project a comment came up about multiple autoloaders. In the first project I had the students create their own autoloader.</description></item><item><title>Implementing Satis</title><link>https://donbstringham.com/posts/2015-03-12-implementing-satis/</link><pubDate>Thu, 12 Mar 2015 09:05:00 -0700</pubDate><guid>https://donbstringham.com/posts/2015-03-12-implementing-satis/</guid><description>Implementing a local Packagist with Satis
+Many large companies, including the one I am currently working for FamilySearch, Intl., operate many servers that do not have connectivity to the internet at large. In other words, they cannot reach Packagist rendering using composer useless. Luckily, the developers at composer have provided a solution to the above problem, private packages. I had been using composer for awhile but was un-aware of Satis or Toran Proxy until I attend Rafael Dohms Composer: The Right Way at php[world] 2014 in Washington, D.</description></item></channel></rss>

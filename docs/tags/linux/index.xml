@@ -1,22 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>linux on Don B. Stringham</title>
-    <link>https://donbstringham.com/tags/linux/</link>
-    <description>Recent content in linux on Don B. Stringham</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 13 Jan 2015 17:50:49 -0700</lastBuildDate><atom:link href="https://donbstringham.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Linux PHP Daemon</title>
-      <link>https://donbstringham.com/posts/2015-01-13-linux-php-daemon/</link>
-      <pubDate>Tue, 13 Jan 2015 17:50:49 -0700</pubDate>
-      
-      <guid>https://donbstringham.com/posts/2015-01-13-linux-php-daemon/</guid>
-      <description>Better than a crontab!
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>linux on Don B. Stringham</title><link>https://donbstringham.com/tags/linux/</link><description>Recent content in linux on Don B. Stringham</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 13 Jan 2015 17:50:49 -0700</lastBuildDate><atom:link href="https://donbstringham.com/tags/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>Linux PHP Daemon</title><link>https://donbstringham.com/posts/2015-01-13-linux-php-daemon/</link><pubDate>Tue, 13 Jan 2015 17:50:49 -0700</pubDate><guid>https://donbstringham.com/posts/2015-01-13-linux-php-daemon/</guid><description>Better than a crontab!
 Many a time have my development team needed to &amp;ldquo;cronify&amp;rdquo; a PHP script for completing business logic quietly behind the scenes. Once the command-line (CLI) version of the application was complete they would start creating and managing a crontab. This practice is NO MORE for my development teams!
-Enter a better way of &amp;ldquo;cronifying&amp;rdquo; or better stated &amp;ldquo;daemonizing&amp;rdquo; a PHP CLI application. I have created a sample of &amp;ldquo;daemonizing&amp;rdquo; a PHP CLI application at https://github.</description>
-    </item>
-    
-  </channel>
-</rss>
+Enter a better way of &amp;ldquo;cronifying&amp;rdquo; or better stated &amp;ldquo;daemonizing&amp;rdquo; a PHP CLI application. I have created a sample of &amp;ldquo;daemonizing&amp;rdquo; a PHP CLI application at https://github.</description></item></channel></rss>

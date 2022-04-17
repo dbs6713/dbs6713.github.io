@@ -1,176 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on Don B. Stringham</title>
-    <link>https://donbstringham.com/posts/</link>
-    <description>Recent content in Posts on Don B. Stringham</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 05 Jun 2016 19:35:16 -0600</lastBuildDate><atom:link href="https://donbstringham.com/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Development With Docker</title>
-      <link>https://donbstringham.com/posts/2016-06-05-dev-with-docker/</link>
-      <pubDate>Sun, 05 Jun 2016 19:35:16 -0600</pubDate>
-      
-      <guid>https://donbstringham.com/posts/2016-06-05-dev-with-docker/</guid>
-      <description>Being a developer for over two decades I am always looking for new ways to improve and simplify my workflow. Recently, I&amp;rsquo;ve moved to Vagrant which is a wrapper around virtual machine players such as Virtual Box, VMWare Fusion and such. The most current tool that fits the bill, though is Docker. It is such a great tool that I have removed Vagrant and all virtual machine players from my development Macbook Pro!</description>
-    </item>
-    
-    <item>
-      <title>Code Climate</title>
-      <link>https://donbstringham.com/posts/2015-05-21-code-climate/</link>
-      <pubDate>Thu, 21 May 2015 11:10:52 -0700</pubDate>
-      
-      <guid>https://donbstringham.com/posts/2015-05-21-code-climate/</guid>
-      <description>Make your code NOT suck!
-I love the idea of automated code reviews! It makes the development process much faster and allows the engineer to focus more on the business logic. Which is where his attention should be focused. Of the few automated code reviews tools I&amp;rsquo;ve used my favorite is Code Climate. There is only one problem I have with Code Climate and that is it&amp;rsquo;s pricing structure. It is definitely going after the development team or enterprise team audience.</description>
-    </item>
-    
-    <item>
-      <title>Different Programming Mode</title>
-      <link>https://donbstringham.com/posts/2015-04-23-different-programming-modes/</link>
-      <pubDate>Thu, 23 Apr 2015 15:10:52 -0700</pubDate>
-      
-      <guid>https://donbstringham.com/posts/2015-04-23-different-programming-modes/</guid>
-      <description>Programming is more than just writing code
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Don B. Stringham</title><link>https://donbstringham.com/posts/</link><description>Recent content in Posts on Don B. Stringham</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 05 Jun 2016 19:35:16 -0600</lastBuildDate><atom:link href="https://donbstringham.com/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Development With Docker</title><link>https://donbstringham.com/posts/2016-06-05-dev-with-docker/</link><pubDate>Sun, 05 Jun 2016 19:35:16 -0600</pubDate><guid>https://donbstringham.com/posts/2016-06-05-dev-with-docker/</guid><description>Being a developer for over two decades I am always looking for new ways to improve and simplify my workflow. Recently, I&amp;rsquo;ve moved to Vagrant which is a wrapper around virtual machine players such as Virtual Box, VMWare Fusion and such. The most current tool that fits the bill, though is Docker. It is such a great tool that I have removed Vagrant and all virtual machine players from my development Macbook Pro!</description></item><item><title>Code Climate</title><link>https://donbstringham.com/posts/2015-05-21-code-climate/</link><pubDate>Thu, 21 May 2015 11:10:52 -0700</pubDate><guid>https://donbstringham.com/posts/2015-05-21-code-climate/</guid><description>Make your code NOT suck!
+I love the idea of automated code reviews! It makes the development process much faster and allows the engineer to focus more on the business logic. Which is where his attention should be focused. Of the few automated code reviews tools I&amp;rsquo;ve used my favorite is Code Climate. There is only one problem I have with Code Climate and that is it&amp;rsquo;s pricing structure. It is definitely going after the development team or enterprise team audience.</description></item><item><title>Different Programming Mode</title><link>https://donbstringham.com/posts/2015-04-23-different-programming-modes/</link><pubDate>Thu, 23 Apr 2015 15:10:52 -0700</pubDate><guid>https://donbstringham.com/posts/2015-04-23-different-programming-modes/</guid><description>Programming is more than just writing code
 Many people, including developers, believe that the activity of programming is just writing code. They are either ignorant because they don&amp;rsquo;t develop or do not pay attention while they develop. Programming can be divided into a few activities that have very different mind-sets and this isn&amp;rsquo;t just my experience it also accords with Martin Fowler.
-The most popular activity is adding new features. It is the one that most people relate to as the only activity of software development.</description>
-    </item>
-    
-    <item>
-      <title>Install Oracle PHP PDO Driver</title>
-      <link>https://donbstringham.com/posts/2015-04-22-php-pdo-oci/</link>
-      <pubDate>Wed, 22 Apr 2015 11:10:52 -0700</pubDate>
-      
-      <guid>https://donbstringham.com/posts/2015-04-22-php-pdo-oci/</guid>
-      <description>Instructions for installing Oracle PHP PDO driver on CentOS/RHEL
+The most popular activity is adding new features. It is the one that most people relate to as the only activity of software development.</description></item><item><title>Install Oracle PHP PDO Driver</title><link>https://donbstringham.com/posts/2015-04-22-php-pdo-oci/</link><pubDate>Wed, 22 Apr 2015 11:10:52 -0700</pubDate><guid>https://donbstringham.com/posts/2015-04-22-php-pdo-oci/</guid><description>Instructions for installing Oracle PHP PDO driver on CentOS/RHEL
 Download Oracle InstantClient RPM files here. Put these files in your server. Download the basic and devel packages.
- Basic: oracle-instantclient12.1-basic-12.1.0.2.0-1.x86_64.rpm Devel: oracle-instantclient12.1-devel-12.1.0.2.0-1.x86_64.rpm  Install the downloaded rpm files:
-$ sudo rpm -ivh oracle-instantclient12.1-basic-12.1.0.2.0-1.x86_64.rpm $ sudo rpm -ivh oracle-instantclient12.1-devel-12.1.0.2.0-1.x86_64.rpm $ sudo ln -s /usr/include/oracle/12.1/client64 /usr/include/oracle/12.1/client $ sudo ln -s /usr/lib/oracle/12.1/client64 /usr/lib/oracle/12.1/client Create a file inside /etc/profile.d named oracle.sh and put this as the content:</description>
-    </item>
-    
-    <item>
-      <title>Building a PHAR for a PHP project</title>
-      <link>https://donbstringham.com/posts/2015-04-21-building-a-phar/</link>
-      <pubDate>Tue, 21 Apr 2015 11:10:52 -0700</pubDate>
-      
-      <guid>https://donbstringham.com/posts/2015-04-21-building-a-phar/</guid>
-      <description>Building a PHAR for a PHP project!
-Some in the PHP community have said the PHP developers have too much Java envy. I am not exactly sure what they mean. As long as PHP adopts good practices from Java development I am all for it! One of the practices that I am glad that is now in PHP is the single PHAR archive for PHP applications.</description>
-    </item>
-    
-    <item>
-      <title>PHAR&#39;s and file path&#39;s</title>
-      <link>https://donbstringham.com/posts/2015-04-17-phar-and-file/</link>
-      <pubDate>Fri, 17 Apr 2015 21:10:52 -0700</pubDate>
-      
-      <guid>https://donbstringham.com/posts/2015-04-17-phar-and-file/</guid>
-      <description>Beware a PHAR requires absolute paths!
-Hopefully, this post save a PHP developer some time.</description>
-    </item>
-    
-    <item>
-      <title>Refactoring to Microservices</title>
-      <link>https://donbstringham.com/posts/2015-04-17-refactoring-to-microservices/</link>
-      <pubDate>Fri, 17 Apr 2015 11:10:52 -0700</pubDate>
-      
-      <guid>https://donbstringham.com/posts/2015-04-17-refactoring-to-microservices/</guid>
-      <description>EMRIS a perfect fit for Microservices
-Microservices, a new old flavor of the the month?</description>
-    </item>
-    
-    <item>
-      <title>Composer Autoloading</title>
-      <link>https://donbstringham.com/posts/2015-03-31-composer-autoloading/</link>
-      <pubDate>Mon, 30 Mar 2015 09:05:00 -0700</pubDate>
-      
-      <guid>https://donbstringham.com/posts/2015-03-31-composer-autoloading/</guid>
-      <description>Composer Autoloading Not Just for Vendor Files
+Basic: oracle-instantclient12.1-basic-12.1.0.2.0-1.x86_64.rpm Devel: oracle-instantclient12.1-devel-12.1.0.2.0-1.x86_64.rpm Install the downloaded rpm files:
+$ sudo rpm -ivh oracle-instantclient12.1-basic-12.1.0.2.0-1.x86_64.rpm $ sudo rpm -ivh oracle-instantclient12.1-devel-12.1.0.2.0-1.x86_64.rpm $ sudo ln -s /usr/include/oracle/12.1/client64 /usr/include/oracle/12.1/client $ sudo ln -s /usr/lib/oracle/12.1/client64 /usr/lib/oracle/12.1/client Create a file inside /etc/profile.d named oracle.sh and put this as the content:</description></item><item><title>Building a PHAR for a PHP project</title><link>https://donbstringham.com/posts/2015-04-21-building-a-phar/</link><pubDate>Tue, 21 Apr 2015 11:10:52 -0700</pubDate><guid>https://donbstringham.com/posts/2015-04-21-building-a-phar/</guid><description>Building a PHAR for a PHP project!
+Some in the PHP community have said the PHP developers have too much Java envy. I am not exactly sure what they mean. As long as PHP adopts good practices from Java development I am all for it! One of the practices that I am glad that is now in PHP is the single PHAR archive for PHP applications.</description></item><item><title>PHAR's and file path's</title><link>https://donbstringham.com/posts/2015-04-17-phar-and-file/</link><pubDate>Fri, 17 Apr 2015 21:10:52 -0700</pubDate><guid>https://donbstringham.com/posts/2015-04-17-phar-and-file/</guid><description>Beware a PHAR requires absolute paths!
+Hopefully, this post save a PHP developer some time.</description></item><item><title>Refactoring to Microservices</title><link>https://donbstringham.com/posts/2015-04-17-refactoring-to-microservices/</link><pubDate>Fri, 17 Apr 2015 11:10:52 -0700</pubDate><guid>https://donbstringham.com/posts/2015-04-17-refactoring-to-microservices/</guid><description>EMRIS a perfect fit for Microservices
+Microservices, a new old flavor of the the month?</description></item><item><title>Composer Autoloading</title><link>https://donbstringham.com/posts/2015-03-31-composer-autoloading/</link><pubDate>Mon, 30 Mar 2015 09:05:00 -0700</pubDate><guid>https://donbstringham.com/posts/2015-03-31-composer-autoloading/</guid><description>Composer Autoloading Not Just for Vendor Files
 Teacher can and should learn from students! That is one of the things I find very satisfying about being an adjunct professor at Weber State University. The fact that I can learn new and usual things from those I teach. Last night was one of those times.
-In fielding questions about a PHP project a comment came up about multiple autoloaders. In the first project I had the students create their own autoloader.</description>
-    </item>
-    
-    <item>
-      <title>Implementing Satis</title>
-      <link>https://donbstringham.com/posts/2015-03-12-implementing-satis/</link>
-      <pubDate>Thu, 12 Mar 2015 09:05:00 -0700</pubDate>
-      
-      <guid>https://donbstringham.com/posts/2015-03-12-implementing-satis/</guid>
-      <description>Implementing a local Packagist with Satis
-Many large companies, including the one I am currently working for FamilySearch, Intl., operate many servers that do not have connectivity to the internet at large. In other words, they cannot reach Packagist rendering using composer useless. Luckily, the developers at composer have provided a solution to the above problem, private packages. I had been using composer for awhile but was un-aware of Satis or Toran Proxy until I attend Rafael Dohms Composer: The Right Way at php[world] 2014 in Washington, D.</description>
-    </item>
-    
-    <item>
-      <title>Optimizing the realpath_cache</title>
-      <link>https://donbstringham.com/posts/2015-03-09-optimizing-realpath_cache/</link>
-      <pubDate>Mon, 09 Mar 2015 09:05:49 -0700</pubDate>
-      
-      <guid>https://donbstringham.com/posts/2015-03-09-optimizing-realpath_cache/</guid>
-      <description>Better PHP performance by optimizing realpath_cache!
-System calls are big performance hits on an OS. Systems calls typically lead to context switches in which the CPU state is saved and retrieved during which kernal code in the CPU pipeline. Anyways, filesystem access definitely uses system calls in an OS. PHP does that a lot especially during include, require, include_one and require_once. Anytime a file is accessed PHP will issue a realpath call.</description>
-    </item>
-    
-    <item>
-      <title>HTML Signatures in Apple Mail</title>
-      <link>https://donbstringham.com/posts/2015-03-06-html-signatures-in-apple-mail/</link>
-      <pubDate>Fri, 06 Mar 2015 17:50:49 -0700</pubDate>
-      
-      <guid>https://donbstringham.com/posts/2015-03-06-html-signatures-in-apple-mail/</guid>
-      <description>Short, concise and good looking HTML email signatures!
-Though there are quite a few of email applications for the Mac OSX none of them combine all the email accounts into one. I mean they don&amp;rsquo;t work with my work email stringhamdb@familysearch.org while working with my personal and schools emails or vice versa. The only one that does is Apple Mail. The email signature feature in Apple Mail is very limited and this post is a way to work around that.</description>
-    </item>
-    
-    <item>
-      <title>Linux PHP Daemon</title>
-      <link>https://donbstringham.com/posts/2015-01-13-linux-php-daemon/</link>
-      <pubDate>Tue, 13 Jan 2015 17:50:49 -0700</pubDate>
-      
-      <guid>https://donbstringham.com/posts/2015-01-13-linux-php-daemon/</guid>
-      <description>Better than a crontab!
+In fielding questions about a PHP project a comment came up about multiple autoloaders. In the first project I had the students create their own autoloader.</description></item><item><title>Implementing Satis</title><link>https://donbstringham.com/posts/2015-03-12-implementing-satis/</link><pubDate>Thu, 12 Mar 2015 09:05:00 -0700</pubDate><guid>https://donbstringham.com/posts/2015-03-12-implementing-satis/</guid><description>Implementing a local Packagist with Satis
+Many large companies, including the one I am currently working for FamilySearch, Intl., operate many servers that do not have connectivity to the internet at large. In other words, they cannot reach Packagist rendering using composer useless. Luckily, the developers at composer have provided a solution to the above problem, private packages. I had been using composer for awhile but was un-aware of Satis or Toran Proxy until I attend Rafael Dohms Composer: The Right Way at php[world] 2014 in Washington, D.</description></item><item><title>Optimizing the realpath_cache</title><link>https://donbstringham.com/posts/2015-03-09-optimizing-realpath_cache/</link><pubDate>Mon, 09 Mar 2015 09:05:49 -0700</pubDate><guid>https://donbstringham.com/posts/2015-03-09-optimizing-realpath_cache/</guid><description>Better PHP performance by optimizing realpath_cache!
+System calls are big performance hits on an OS. Systems calls typically lead to context switches in which the CPU state is saved and retrieved during which kernal code in the CPU pipeline. Anyways, filesystem access definitely uses system calls in an OS. PHP does that a lot especially during include, require, include_one and require_once. Anytime a file is accessed PHP will issue a realpath call.</description></item><item><title>HTML Signatures in Apple Mail</title><link>https://donbstringham.com/posts/2015-03-06-html-signatures-in-apple-mail/</link><pubDate>Fri, 06 Mar 2015 17:50:49 -0700</pubDate><guid>https://donbstringham.com/posts/2015-03-06-html-signatures-in-apple-mail/</guid><description>Short, concise and good looking HTML email signatures!
+Though there are quite a few of email applications for the Mac OSX none of them combine all the email accounts into one. I mean they don&amp;rsquo;t work with my work email stringhamdb@familysearch.org while working with my personal and schools emails or vice versa. The only one that does is Apple Mail. The email signature feature in Apple Mail is very limited and this post is a way to work around that.</description></item><item><title>Linux PHP Daemon</title><link>https://donbstringham.com/posts/2015-01-13-linux-php-daemon/</link><pubDate>Tue, 13 Jan 2015 17:50:49 -0700</pubDate><guid>https://donbstringham.com/posts/2015-01-13-linux-php-daemon/</guid><description>Better than a crontab!
 Many a time have my development team needed to &amp;ldquo;cronify&amp;rdquo; a PHP script for completing business logic quietly behind the scenes. Once the command-line (CLI) version of the application was complete they would start creating and managing a crontab. This practice is NO MORE for my development teams!
-Enter a better way of &amp;ldquo;cronifying&amp;rdquo; or better stated &amp;ldquo;daemonizing&amp;rdquo; a PHP CLI application. I have created a sample of &amp;ldquo;daemonizing&amp;rdquo; a PHP CLI application at https://github.</description>
-    </item>
-    
-    <item>
-      <title>Service Locator vs. Dependency Injection Container</title>
-      <link>https://donbstringham.com/posts/2014-12-23-service-locator-vs-dependency-injection-container/</link>
-      <pubDate>Tue, 23 Dec 2014 22:47:30 -0700</pubDate>
-      
-      <guid>https://donbstringham.com/posts/2014-12-23-service-locator-vs-dependency-injection-container/</guid>
-      <description>I am NOT as crazy as I thought!
-Over the last few years of learning to incorporate Java-like patterns into my PHP development practices one area seemed to drive me crazy, almost to the point of second guessing myself about dependency injection altogether. Years ago I learned from Misko Hevery from Google that a service locator is really just global state or a bad singleton in sheep&amp;rsquo;s clothing. He states that a service locator violates the Law of Demeter and calls singletons are pathological liars.</description>
-    </item>
-    
-    <item>
-      <title>Personal CDN for Free</title>
-      <link>https://donbstringham.com/posts/2014-12-17-personal-cdn-for-free/</link>
-      <pubDate>Wed, 17 Dec 2014 16:56:24 -0700</pubDate>
-      
-      <guid>https://donbstringham.com/posts/2014-12-17-personal-cdn-for-free/</guid>
-      <description>Use Google Apps for a free personal CDN:
-So with some personal branding on a few websites it became apparent that my life would be much simpler if I had a personal CDN to store and share common files. After a little bit of research some CDN providers it became obvious that there are not many simple or FREE personal CDN solutions out there. So I googled &amp;ldquo;personal cdn&amp;rdquo; and the first link was magical!</description>
-    </item>
-    
-    <item>
-      <title>DDD in PHP Experiment</title>
-      <link>https://donbstringham.com/posts/2014-12-11-ddd-in-php-experiment/</link>
-      <pubDate>Thu, 11 Dec 2014 12:52:29 -0700</pubDate>
-      
-      <guid>https://donbstringham.com/posts/2014-12-11-ddd-in-php-experiment/</guid>
-      <description>Domain-Driven Design in PHP Experiment and Project Seed
-A current and difficult software development project has recently sent me scurrying for answers. In that search I&amp;rsquo;ve rediscovered the book Domain-Driven Design: Tackling Complexity in the Heart of Software by Eric Evans. In addition to re-reading the book and reviewing a handful of slide-decks at SlideShare; I have found that there a few different and even wide varying implementations of the principles of domain-driven design.</description>
-    </item>
-    
-    <item>
-      <title>Semantic Versioning</title>
-      <link>https://donbstringham.com/posts/2014-12-08-semantic-versioning/</link>
-      <pubDate>Mon, 08 Dec 2014 11:10:52 -0700</pubDate>
-      
-      <guid>https://donbstringham.com/posts/2014-12-08-semantic-versioning/</guid>
-      <description>We should all be using Semantic Versioning:
+Enter a better way of &amp;ldquo;cronifying&amp;rdquo; or better stated &amp;ldquo;daemonizing&amp;rdquo; a PHP CLI application. I have created a sample of &amp;ldquo;daemonizing&amp;rdquo; a PHP CLI application at https://github.</description></item><item><title>Service Locator vs. Dependency Injection Container</title><link>https://donbstringham.com/posts/2014-12-23-service-locator-vs-dependency-injection-container/</link><pubDate>Tue, 23 Dec 2014 22:47:30 -0700</pubDate><guid>https://donbstringham.com/posts/2014-12-23-service-locator-vs-dependency-injection-container/</guid><description>I am NOT as crazy as I thought!
+Over the last few years of learning to incorporate Java-like patterns into my PHP development practices one area seemed to drive me crazy, almost to the point of second guessing myself about dependency injection altogether. Years ago I learned from Misko Hevery from Google that a service locator is really just global state or a bad singleton in sheep&amp;rsquo;s clothing. He states that a service locator violates the Law of Demeter and calls singletons are pathological liars.</description></item><item><title>Personal CDN for Free</title><link>https://donbstringham.com/posts/2014-12-17-personal-cdn-for-free/</link><pubDate>Wed, 17 Dec 2014 16:56:24 -0700</pubDate><guid>https://donbstringham.com/posts/2014-12-17-personal-cdn-for-free/</guid><description>Use Google Apps for a free personal CDN:
+So with some personal branding on a few websites it became apparent that my life would be much simpler if I had a personal CDN to store and share common files. After a little bit of research some CDN providers it became obvious that there are not many simple or FREE personal CDN solutions out there. So I googled &amp;ldquo;personal cdn&amp;rdquo; and the first link was magical!</description></item><item><title>DDD in PHP Experiment</title><link>https://donbstringham.com/posts/2014-12-11-ddd-in-php-experiment/</link><pubDate>Thu, 11 Dec 2014 12:52:29 -0700</pubDate><guid>https://donbstringham.com/posts/2014-12-11-ddd-in-php-experiment/</guid><description>Domain-Driven Design in PHP Experiment and Project Seed
+A current and difficult software development project has recently sent me scurrying for answers. In that search I&amp;rsquo;ve rediscovered the book Domain-Driven Design: Tackling Complexity in the Heart of Software by Eric Evans. In addition to re-reading the book and reviewing a handful of slide-decks at SlideShare; I have found that there a few different and even wide varying implementations of the principles of domain-driven design.</description></item><item><title>Semantic Versioning</title><link>https://donbstringham.com/posts/2014-12-08-semantic-versioning/</link><pubDate>Mon, 08 Dec 2014 11:10:52 -0700</pubDate><guid>https://donbstringham.com/posts/2014-12-08-semantic-versioning/</guid><description>We should all be using Semantic Versioning:
 During this November I attended the PHP[WORLD] 2014 conference in Washington, D.C. To say that it was a beneficial conference would be an understatement. It seemed that valuable information was being shared at every corner. One of those gems is semantic versioning. This topic came up during a session on how to use PHP Composer by Rafael Dohms.
-Semantic versioning uses the familiar format xx.</description>
-    </item>
-    
-  </channel>
-</rss>
+Semantic versioning uses the familiar format xx.</description></item></channel></rss>

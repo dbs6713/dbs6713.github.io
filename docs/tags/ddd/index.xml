@@ -1,21 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>ddd on Don B. Stringham</title>
-    <link>https://donbstringham.com/tags/ddd/</link>
-    <description>Recent content in ddd on Don B. Stringham</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 11 Dec 2014 12:52:29 -0700</lastBuildDate><atom:link href="https://donbstringham.com/tags/ddd/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>DDD in PHP Experiment</title>
-      <link>https://donbstringham.com/posts/2014-12-11-ddd-in-php-experiment/</link>
-      <pubDate>Thu, 11 Dec 2014 12:52:29 -0700</pubDate>
-      
-      <guid>https://donbstringham.com/posts/2014-12-11-ddd-in-php-experiment/</guid>
-      <description>Domain-Driven Design in PHP Experiment and Project Seed
-A current and difficult software development project has recently sent me scurrying for answers. In that search I&amp;rsquo;ve rediscovered the book Domain-Driven Design: Tackling Complexity in the Heart of Software by Eric Evans. In addition to re-reading the book and reviewing a handful of slide-decks at SlideShare; I have found that there a few different and even wide varying implementations of the principles of domain-driven design.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ddd on Don B. Stringham</title><link>https://donbstringham.com/tags/ddd/</link><description>Recent content in ddd on Don B. Stringham</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 11 Dec 2014 12:52:29 -0700</lastBuildDate><atom:link href="https://donbstringham.com/tags/ddd/index.xml" rel="self" type="application/rss+xml"/><item><title>DDD in PHP Experiment</title><link>https://donbstringham.com/posts/2014-12-11-ddd-in-php-experiment/</link><pubDate>Thu, 11 Dec 2014 12:52:29 -0700</pubDate><guid>https://donbstringham.com/posts/2014-12-11-ddd-in-php-experiment/</guid><description>Domain-Driven Design in PHP Experiment and Project Seed
+A current and difficult software development project has recently sent me scurrying for answers. In that search I&amp;rsquo;ve rediscovered the book Domain-Driven Design: Tackling Complexity in the Heart of Software by Eric Evans. In addition to re-reading the book and reviewing a handful of slide-decks at SlideShare; I have found that there a few different and even wide varying implementations of the principles of domain-driven design.</description></item></channel></rss>
