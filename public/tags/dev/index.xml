@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dev on Don B. Stringham</title>
+    <link>https://github.com/dbs67/dbs67.github.io/tags/dev/</link>
+    <description>Recent content in dev on Don B. Stringham</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Jun 2016 19:35:16 -0600</lastBuildDate><atom:link href="https://github.com/dbs67/dbs67.github.io/tags/dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Development With Docker</title>
+      <link>https://github.com/dbs67/dbs67.github.io/posts/2016-06-05-dev-with-docker/</link>
+      <pubDate>Sun, 05 Jun 2016 19:35:16 -0600</pubDate>
+      
+      <guid>https://github.com/dbs67/dbs67.github.io/posts/2016-06-05-dev-with-docker/</guid>
+      <description>Being a developer for over two decades I am always looking for new ways to improve and simplify my workflow. Recently, I&amp;rsquo;ve moved to Vagrant which is a wrapper around virtual machine players such as Virtual Box, VMWare Fusion and such. The most current tool that fits the bill, though is Docker. It is such a great tool that I have removed Vagrant and all virtual machine players from my development Macbook Pro!</description>
+    </item>
+    
+  </channel>
+</rss>

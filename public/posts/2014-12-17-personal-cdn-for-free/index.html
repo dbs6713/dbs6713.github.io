@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Don B. Stringham">
+    <meta name="description" content="https://github.com/dbs67/dbs67.github.io">
+    <meta name="keywords" content="blog,developer,personal">
+
+    <meta property="og:site_name" content="Don B. Stringham">
+    <meta property="og:title" content="
+  Personal CDN for Free - Don B. Stringham
+">
+    <meta property="og:description" content="Use Google Apps for a free personal CDN.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://github.com/dbs67/dbs67.github.io/posts/2014-12-17-personal-cdn-for-free/">
+    <meta property="og:image" content="https://github.com/dbs67/dbs67.github.io">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="https://github.com/dbs67/dbs67.github.io/posts/2014-12-17-personal-cdn-for-free/">
+    <meta name="twitter:image" content="https://github.com/dbs67/dbs67.github.io">
+
+    <base href="https://github.com/dbs67/dbs67.github.io/posts/2014-12-17-personal-cdn-for-free/">
+    <title>
+  Personal CDN for Free - Don B. Stringham
+</title>
+
+    <link rel="canonical" href="https://github.com/dbs67/dbs67.github.io/posts/2014-12-17-personal-cdn-for-free/">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    
+    <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
+    <link rel="stylesheet" href="/dbs67/dbs67.github.io/css/normalize.min.css">
+    <link rel="stylesheet" href="/dbs67/dbs67.github.io/css/style.min.css">
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="/dbs67/dbs67.github.io/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/dbs67/dbs67.github.io/images/favicon-16x16.png" sizes="16x16">
+
+    
+      <link rel="alternate" href="https://github.com/dbs67/dbs67.github.io/index.xml" type="application/rss+xml" title="Don B. Stringham">
+      <link href="https://github.com/dbs67/dbs67.github.io/index.xml" rel="feed" type="application/rss+xml" title="Don B. Stringham" />
+    
+
+    <meta name="generator" content="Hugo 0.97.0" />
+  </head>
+
+  <body class="">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/dbs67/dbs67.github.io/">Don B. Stringham</a>
+    <input type="checkbox" id="menu-control"/>
+    <label class="menu-mobile  float-right " for="menu-control">
+      <span class="btn-mobile  float-right ">&#9776;</span>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://github.com/dbs67/dbs67.github.io/about">About</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://github.com/dbs67/dbs67.github.io/resume">Resume</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://github.com/dbs67/dbs67.github.io/contact">Contact</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://github.com/dbs67/dbs67.github.io/posts">Posts</a>
+            </li>
+          
+        
+        
+      </ul>
+    </label>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>Personal CDN for Free</h1>
+    </header>
+
+    <p>Use Google Apps for a free personal CDN:</p>
+<p>So with some personal branding on a few websites it became apparent that my life would be much simpler if I had a personal CDN to store and share common files.  After a little bit of research some CDN providers it became obvious that there are not many simple or FREE personal CDN solutions out there.  So I googled &ldquo;personal cdn&rdquo; and the first <a href="https://brandonb.io/use-google-app-engine-as-your-own-personal-cdn">link</a> was magical!  A simple posting by Brandon Brown explained how the Google App Engine can be used for your very own personal CDN.  You can read his blog post but here I will describe the process I went through.</p>
+<p>After following Brandon&rsquo;s advice in the <code>app.yaml</code> file I added a <code>files/</code> and <code>img/</code> directory as well as and <code>index .html</code> if someone actually hits <a href="http://donbstringham-cdn.appspot.com/">http://donbstringham-cdn.appspot.com/</a>.  So now the
+configuration file looks like this:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">application: donbstringham.us
+</span></span><span class="line"><span class="cl">version: 1
+</span></span><span class="line"><span class="cl">api_version: 1
+</span></span><span class="line"><span class="cl">threadsafe: true
+</span></span><span class="line"><span class="cl">runtime: python27
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">handlers:
+</span></span><span class="line"><span class="cl">- url: /css
+</span></span><span class="line"><span class="cl">static_dir: css
+</span></span><span class="line"><span class="cl">mime_type: text/css
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">- url: /js
+</span></span><span class="line"><span class="cl">static_dir: js
+</span></span><span class="line"><span class="cl">mime_type: text/javascript
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">- url: /img
+</span></span><span class="line"><span class="cl">static_dir: img
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">- url: /files
+</span></span><span class="line"><span class="cl">static_dir: files
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">- url: /.*
+</span></span><span class="line"><span class="cl">static_files: index.html
+</span></span><span class="line"><span class="cl">upload: index.html
+</span></span></code></pre></div><p>It took me about one hour to setup and configure Google Apps as a personal CDN.  So now I use this personal CDN for
+static content on a couple of personal websites as well as fonts and images for my various email signatures.</p>
+
+  </article>
+</section>
+
+
+      </div>
+      
+        <footer class="footer">
+  <section class="container">
+    
+      <div class="sns-shares sp-sns-shares">
+        
+          <a class="sns-share twitter-share" href="https://twitter.com/intent/tweet?original_referer=https%3a%2f%2fgithub.com%2fdbs67%2fdbs67.github.io%2fposts%2f2014-12-17-personal-cdn-for-free%2f&ref_src=twsrc%5Etfw&text=Personal%20CDN%20for%20Free Don%20B.%20Stringham&tw_p=tweetbutton&url=https%3a%2f%2fgithub.com%2fdbs67%2fdbs67.github.io%2fposts%2f2014-12-17-personal-cdn-for-free%2f"><i class="fab fa-twitter"></i></a>
+        
+        
+        
+        
+        
+          <a class="sns-share linkedIn-share" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3a%2f%2fgithub.com%2fdbs67%2fdbs67.github.io%2fposts%2f2014-12-17-personal-cdn-for-free%2f"><i class="fab fa-linkedin"></i></a>
+        
+      </div>
+    
+    
+      <p>2022 © Don B. Stringham</p>
+    
+     © 2016  
+
+  </section>
+</footer>
+<div class="fixed-bar">
+  <section class="container">
+    
+    
+      <div class="sns-shares pc-sns-shares">
+        
+          <a class="sns-share twitter-share" href="https://twitter.com/intent/tweet?original_referer=https%3a%2f%2fgithub.com%2fdbs67%2fdbs67.github.io%2fposts%2f2014-12-17-personal-cdn-for-free%2f&ref_src=twsrc%5Etfw&text=Personal%20CDN%20for%20Free Don%20B.%20Stringham&tw_p=tweetbutton&url=https%3a%2f%2fgithub.com%2fdbs67%2fdbs67.github.io%2fposts%2f2014-12-17-personal-cdn-for-free%2f"><i class="fab fa-twitter"></i></a>
+        
+        
+        
+        
+        
+          <a class="sns-share linkedIn-share" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3a%2f%2fgithub.com%2fdbs67%2fdbs67.github.io%2fposts%2f2014-12-17-personal-cdn-for-free%2f"><i class="fab fa-linkedin"></i></a>
+        
+      </div>
+    
+  </section>
+</div>
+
+      
+    </main>
+
+    
+
+  <script src="/dbs67/dbs67.github.io/js/app.js"></script>
+  
+  </body>
+</html>

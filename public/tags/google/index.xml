@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>google on Don B. Stringham</title>
+    <link>https://github.com/dbs67/dbs67.github.io/tags/google/</link>
+    <description>Recent content in google on Don B. Stringham</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 17 Dec 2014 16:56:24 -0700</lastBuildDate><atom:link href="https://github.com/dbs67/dbs67.github.io/tags/google/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Personal CDN for Free</title>
+      <link>https://github.com/dbs67/dbs67.github.io/posts/2014-12-17-personal-cdn-for-free/</link>
+      <pubDate>Wed, 17 Dec 2014 16:56:24 -0700</pubDate>
+      
+      <guid>https://github.com/dbs67/dbs67.github.io/posts/2014-12-17-personal-cdn-for-free/</guid>
+      <description>Use Google Apps for a free personal CDN:
+So with some personal branding on a few websites it became apparent that my life would be much simpler if I had a personal CDN to store and share common files. After a little bit of research some CDN providers it became obvious that there are not many simple or FREE personal CDN solutions out there. So I googled &amp;ldquo;personal cdn&amp;rdquo; and the first link was magical!</description>
+    </item>
+    
+  </channel>
+</rss>

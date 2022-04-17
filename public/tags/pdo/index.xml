@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pdo on Don B. Stringham</title>
+    <link>https://github.com/dbs67/dbs67.github.io/tags/pdo/</link>
+    <description>Recent content in pdo on Don B. Stringham</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Apr 2015 11:10:52 -0700</lastBuildDate><atom:link href="https://github.com/dbs67/dbs67.github.io/tags/pdo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install Oracle PHP PDO Driver</title>
+      <link>https://github.com/dbs67/dbs67.github.io/posts/2015-04-22-php-pdo-oci/</link>
+      <pubDate>Wed, 22 Apr 2015 11:10:52 -0700</pubDate>
+      
+      <guid>https://github.com/dbs67/dbs67.github.io/posts/2015-04-22-php-pdo-oci/</guid>
+      <description>Instructions for installing Oracle PHP PDO driver on CentOS/RHEL
+Download Oracle InstantClient RPM files here. Put these files in your server. Download the basic and devel packages.
+ Basic: oracle-instantclient12.1-basic-12.1.0.2.0-1.x86_64.rpm Devel: oracle-instantclient12.1-devel-12.1.0.2.0-1.x86_64.rpm  Install the downloaded rpm files:
+$ sudo rpm -ivh oracle-instantclient12.1-basic-12.1.0.2.0-1.x86_64.rpm $ sudo rpm -ivh oracle-instantclient12.1-devel-12.1.0.2.0-1.x86_64.rpm $ sudo ln -s /usr/include/oracle/12.1/client64 /usr/include/oracle/12.1/client $ sudo ln -s /usr/lib/oracle/12.1/client64 /usr/lib/oracle/12.1/client Create a file inside /etc/profile.d named oracle.sh and put this as the content:</description>
+    </item>
+    
+  </channel>
+</rss>

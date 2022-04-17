@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>php on Don B. Stringham</title>
+    <link>https://github.com/dbs67/dbs67.github.io/tags/php/</link>
+    <description>Recent content in php on Don B. Stringham</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Apr 2015 11:10:52 -0700</lastBuildDate><atom:link href="https://github.com/dbs67/dbs67.github.io/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install Oracle PHP PDO Driver</title>
+      <link>https://github.com/dbs67/dbs67.github.io/posts/2015-04-22-php-pdo-oci/</link>
+      <pubDate>Wed, 22 Apr 2015 11:10:52 -0700</pubDate>
+      
+      <guid>https://github.com/dbs67/dbs67.github.io/posts/2015-04-22-php-pdo-oci/</guid>
+      <description>Instructions for installing Oracle PHP PDO driver on CentOS/RHEL
+Download Oracle InstantClient RPM files here. Put these files in your server. Download the basic and devel packages.
+ Basic: oracle-instantclient12.1-basic-12.1.0.2.0-1.x86_64.rpm Devel: oracle-instantclient12.1-devel-12.1.0.2.0-1.x86_64.rpm  Install the downloaded rpm files:
+$ sudo rpm -ivh oracle-instantclient12.1-basic-12.1.0.2.0-1.x86_64.rpm $ sudo rpm -ivh oracle-instantclient12.1-devel-12.1.0.2.0-1.x86_64.rpm $ sudo ln -s /usr/include/oracle/12.1/client64 /usr/include/oracle/12.1/client $ sudo ln -s /usr/lib/oracle/12.1/client64 /usr/lib/oracle/12.1/client Create a file inside /etc/profile.d named oracle.sh and put this as the content:</description>
+    </item>
+    
+    <item>
+      <title>Building a PHAR for a PHP project</title>
+      <link>https://github.com/dbs67/dbs67.github.io/posts/2015-04-21-building-a-phar/</link>
+      <pubDate>Tue, 21 Apr 2015 11:10:52 -0700</pubDate>
+      
+      <guid>https://github.com/dbs67/dbs67.github.io/posts/2015-04-21-building-a-phar/</guid>
+      <description>Building a PHAR for a PHP project!
+Some in the PHP community have said the PHP developers have too much Java envy. I am not exactly sure what they mean. As long as PHP adopts good practices from Java development I am all for it! One of the practices that I am glad that is now in PHP is the single PHAR archive for PHP applications.</description>
+    </item>
+    
+    <item>
+      <title>PHAR&#39;s and file path&#39;s</title>
+      <link>https://github.com/dbs67/dbs67.github.io/posts/2015-04-17-phar-and-file/</link>
+      <pubDate>Fri, 17 Apr 2015 21:10:52 -0700</pubDate>
+      
+      <guid>https://github.com/dbs67/dbs67.github.io/posts/2015-04-17-phar-and-file/</guid>
+      <description>Beware a PHAR requires absolute paths!
+Hopefully, this post save a PHP developer some time.</description>
+    </item>
+    
+    <item>
+      <title>Composer Autoloading</title>
+      <link>https://github.com/dbs67/dbs67.github.io/posts/2015-03-31-composer-autoloading/</link>
+      <pubDate>Mon, 30 Mar 2015 09:05:00 -0700</pubDate>
+      
+      <guid>https://github.com/dbs67/dbs67.github.io/posts/2015-03-31-composer-autoloading/</guid>
+      <description>Composer Autoloading Not Just for Vendor Files
+Teacher can and should learn from students! That is one of the things I find very satisfying about being an adjunct professor at Weber State University. The fact that I can learn new and usual things from those I teach. Last night was one of those times.
+In fielding questions about a PHP project a comment came up about multiple autoloaders. In the first project I had the students create their own autoloader.</description>
+    </item>
+    
+    <item>
+      <title>Implementing Satis</title>
+      <link>https://github.com/dbs67/dbs67.github.io/posts/2015-03-12-implementing-satis/</link>
+      <pubDate>Thu, 12 Mar 2015 09:05:00 -0700</pubDate>
+      
+      <guid>https://github.com/dbs67/dbs67.github.io/posts/2015-03-12-implementing-satis/</guid>
+      <description>Implementing a local Packagist with Satis
+Many large companies, including the one I am currently working for FamilySearch, Intl., operate many servers that do not have connectivity to the internet at large. In other words, they cannot reach Packagist rendering using composer useless. Luckily, the developers at composer have provided a solution to the above problem, private packages. I had been using composer for awhile but was un-aware of Satis or Toran Proxy until I attend Rafael Dohms Composer: The Right Way at php[world] 2014 in Washington, D.</description>
+    </item>
+    
+    <item>
+      <title>Optimizing the realpath_cache</title>
+      <link>https://github.com/dbs67/dbs67.github.io/posts/2015-03-09-optimizing-realpath_cache/</link>
+      <pubDate>Mon, 09 Mar 2015 09:05:49 -0700</pubDate>
+      
+      <guid>https://github.com/dbs67/dbs67.github.io/posts/2015-03-09-optimizing-realpath_cache/</guid>
+      <description>Better PHP performance by optimizing realpath_cache!
+System calls are big performance hits on an OS. Systems calls typically lead to context switches in which the CPU state is saved and retrieved during which kernal code in the CPU pipeline. Anyways, filesystem access definitely uses system calls in an OS. PHP does that a lot especially during include, require, include_one and require_once. Anytime a file is accessed PHP will issue a realpath call.</description>
+    </item>
+    
+    <item>
+      <title>Linux PHP Daemon</title>
+      <link>https://github.com/dbs67/dbs67.github.io/posts/2015-01-13-linux-php-daemon/</link>
+      <pubDate>Tue, 13 Jan 2015 17:50:49 -0700</pubDate>
+      
+      <guid>https://github.com/dbs67/dbs67.github.io/posts/2015-01-13-linux-php-daemon/</guid>
+      <description>Better than a crontab!
+Many a time have my development team needed to &amp;ldquo;cronify&amp;rdquo; a PHP script for completing business logic quietly behind the scenes. Once the command-line (CLI) version of the application was complete they would start creating and managing a crontab. This practice is NO MORE for my development teams!
+Enter a better way of &amp;ldquo;cronifying&amp;rdquo; or better stated &amp;ldquo;daemonizing&amp;rdquo; a PHP CLI application. I have created a sample of &amp;ldquo;daemonizing&amp;rdquo; a PHP CLI application at https://github.</description>
+    </item>
+    
+    <item>
+      <title>Service Locator vs. Dependency Injection Container</title>
+      <link>https://github.com/dbs67/dbs67.github.io/posts/2014-12-23-service-locator-vs-dependency-injection-container/</link>
+      <pubDate>Tue, 23 Dec 2014 22:47:30 -0700</pubDate>
+      
+      <guid>https://github.com/dbs67/dbs67.github.io/posts/2014-12-23-service-locator-vs-dependency-injection-container/</guid>
+      <description>I am NOT as crazy as I thought!
+Over the last few years of learning to incorporate Java-like patterns into my PHP development practices one area seemed to drive me crazy, almost to the point of second guessing myself about dependency injection altogether. Years ago I learned from Misko Hevery from Google that a service locator is really just global state or a bad singleton in sheep&amp;rsquo;s clothing. He states that a service locator violates the Law of Demeter and calls singletons are pathological liars.</description>
+    </item>
+    
+    <item>
+      <title>DDD in PHP Experiment</title>
+      <link>https://github.com/dbs67/dbs67.github.io/posts/2014-12-11-ddd-in-php-experiment/</link>
+      <pubDate>Thu, 11 Dec 2014 12:52:29 -0700</pubDate>
+      
+      <guid>https://github.com/dbs67/dbs67.github.io/posts/2014-12-11-ddd-in-php-experiment/</guid>
+      <description>Domain-Driven Design in PHP Experiment and Project Seed
+A current and difficult software development project has recently sent me scurrying for answers. In that search I&amp;rsquo;ve rediscovered the book Domain-Driven Design: Tackling Complexity in the Heart of Software by Eric Evans. In addition to re-reading the book and reviewing a handful of slide-decks at SlideShare; I have found that there a few different and even wide varying implementations of the principles of domain-driven design.</description>
+    </item>
+    
+  </channel>
+</rss>
