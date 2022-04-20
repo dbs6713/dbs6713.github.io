@@ -18,11 +18,11 @@ A little background about the content of the first site [Daoyin Chuan](https://d
 This method requires two repositories.  The first one is *private* and the other *public*.  The *private* repository contains the sources used to generate the static web site. I named the *private* repository 'daoyinchuan.source'. The *public* repository I named [daoyinchuan.github.io](https://github.com/daoyinchuan/daoyinchuan.github.io). **NOTE:** I put these two repositories into my GitHub Organization "Daoyin Chuan".
 
 {{< rawhtml >}}
-    <img src="/images/daoyinchuan_dns.jpg" width="600"/>
+    <img src="https://donbstringham.com/images/daoyinchuan_dns.jpg" width="600"/>
 {{< /rawhtml >}}
 
 ## METHOD 2 (SINGLE REPOSITORY)
 
 {{< rawhtml >}}
-    <img src="/images/dbs67_dns.jpg" width="600" />
+    <img src="https://donbstringham.com/images/dbs67_dns.jpg" width="600" />
 {{< /rawhtml >}}
