@@ -64,3 +64,6 @@ ciMonitorNames.forEach((ciMonitorName) => {gs.addInfoMessage(ciMonitorName.toStr
 ```
 
 * Created ServiceNow script include to handle the ReST requests and data sanitizing.
+
+  * Discovered that the JS `for` loop is the fast way to iterate over an array.
+  * Created a function that takes 3 arguments, array, attribute name, and value.  This seems to scan the hosts array the fastest.  In xPlore it only takes around 3-5 minutes.
