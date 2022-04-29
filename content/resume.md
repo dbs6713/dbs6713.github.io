@@ -48,5 +48,5 @@ Technical Summary
 Contact Information
 -------------------
 
-* donbstringham at icloud dot com
+* me at donbstringham dot com
 * +1 (801) 205-3157
