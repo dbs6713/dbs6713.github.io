@@ -21,8 +21,8 @@ pygmentsUseClasses = true # new add
     keywords = "blog,developer,personal" # Site keywords.
     avatarurl = "images/avatar.jpg" # Contain the path of the optionnal avatar in the static folder.
 
-    footercontent = "2022 © Don B. Stringham" # Add footer content
-    # fixedbarContent = "&copy; 2022 Don B. stringham" # Add fixedbar content
+    footercontent = "2023 © Don B. Stringham" # Add footer content
+    # fixedbarContent = "&copy; 2023 Don B. stringham" # Add fixedbar content
     # fixedbarContentAfter = "Thank You! Please share it if you like it→" # Add fixedbar content after click
 
     # Whether you want to hide copyright and credits in the footer.
@@ -42,7 +42,7 @@ pygmentsUseClasses = true # new add
     snsShare = true # new add
     # Popular sns share
     # if you want add sns. please message!
-    enableTwitterShare = true  # new add
+    enableTwitterShare = false  # new add
     enableFacebookShare = false # new add
     enableHatenaShare = false   # new add
     enableLineShare = false     # new add
@@ -59,11 +59,6 @@ pygmentsUseClasses = true # new add
     icon = "fab fa-github"
     weight = 1
     url = "https://github.com/dbs67/"
-[[params.social]]
-    name = "Twitter"
-    icon = "fab fa-twitter"
-    weight = 2
-    url = "https://twitter.com/dbs667/"
 [[params.social]]
     name = "LinkedIn"
     icon = "fab fa-linkedin"
